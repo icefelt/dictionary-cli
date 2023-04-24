@@ -11,11 +11,10 @@ def get_definition(word):
         data = response.json()
         # Find the first definition of the word
         for entry in data:
-            if "meta" in entry and "id" in entry["meta"] and entry["meta"]["id"] == word.lower():
-                definition = entry["def"][0]["sseq"][0][0][1]["dt"][0][1]
-                # Remove any example sentences from the definition
-                definition = definition.split(":")[0].strip()
-                return definition
+            definition = entry["def"][0]["sseq"][0][0][1]["dt"][0][1]
+            # Remove any example sentences from the definition
+            definition = definition.split(":")[0].strip()
+            return definition
     else:
         return None
 
