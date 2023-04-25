@@ -21,17 +21,13 @@ $ python -m venv ./venv && source venv/bin/activate
 (venv) $ python -m pip install -r requirements.txt
 ```
 
-<!-- 3. Initialize the application
-
-```sh
-(venv) $ python -m rptodo init
-```
-
-This command asks you to introduce the file path to store the application's database. You can also accept the default file path by pressing enter. -->
-
 ## Usage
+After you download the source code and run the installation steps, 
+1. Run the`python dictionary-api.py` command
+2. Enter a word to recieve it's Dictionary Definition
+The example below uses the word: `rascal`.
 
-
+Enter the command and 
 ```sh
 (venv) $ python dictionary-api.py
 Enter a word: rascal
