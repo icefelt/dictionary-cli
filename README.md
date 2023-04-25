@@ -36,7 +36,7 @@ rascal: a mean, unprincipled, or dishonest person
 
 ## Release History
 
-- 0.2.0
+- 0.1.0
 
 ## About the Author
 
