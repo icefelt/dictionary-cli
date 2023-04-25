@@ -31,6 +31,13 @@ This command asks you to introduce the file path to store the application's data
 
 ## Usage
 
+
+```sh
+(venv) $ python dictionary-api.py
+Enter a word: rascal
+rascal: a mean, unprincipled, or dishonest person
+```
+
 ## Release History
 
 - 0.2.0
